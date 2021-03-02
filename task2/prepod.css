@@ -1,0 +1,37 @@
+.a {
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Pacifico', cursive;
+}
+.p1 {
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+}
+.p1 img{
+    height: 255px;
+    width: 200px;
+}
+.p1:hover img  {
+    border: 3px solid #f26522; /* Рамка при наведении на ссылку курсора мыши */
+   }
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.qt::after {
+    content: 'зав.каф., професор, д.е.н.';
+    display: block;
+}
+.ct::after {
+    content: 'професор, д.е.н.';
+    display: block;
+}
+.mt::after {
+    content: 'професор, д.ф.-м.н.';
+    display: block;
+}
+.kt::after {
+    content: 'доцент, к.е.н.';
+    display: block;
+}
