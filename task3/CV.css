@@ -1,0 +1,140 @@
+.wrappin{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.part1 {
+    background-color: rgb(23, 27, 38);
+    width: 697px;
+    height: 394px;
+    display: flex;
+    color:white;
+    font-size: 10px;
+}
+img {
+    display: flex;
+    position: relative;
+    height: 310px;
+    left:25px;
+    top:50px;
+    
+}
+.bigtext {
+    font-size: 15px;
+    display: flex;
+    position: relative;
+    left: 40px;
+    top:100px;    
+}
+.bigtext2 {
+    text-align: center;
+    display: flex;
+    position: relative;
+    background-color: rgb(33, 37, 48);
+    width: 170px;
+    height: 35px;
+    left: -130px;
+    top:100px; 
+    }
+.div1 {
+    display: flex;
+    position: relative;
+    left: 40px;
+    top:150px;
+}
+.part2 {
+    background-color: white;
+    width: 697px;
+    height: 606px;
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+
+
+
+
+
+
+
+
+.darkbackground1 {
+    background-color: rgb(23, 27, 38);
+    width: 160px;
+    height: 250px;
+    display: table-cell;
+}
+.darkbackground2 {
+    background-color: rgb(33, 37, 48);
+    width: 790px;
+    height: 250px;
+    display: table-cell;
+}
+.darkbackground3 {
+    background-color: rgb(23, 27, 38);
+    width: 1350px;
+    height: 250px;
+    display: table-cell;
+}
+.darkbackground21 {
+    background-color: rgb(23, 27, 38);
+    width: 160px;
+    height: 880px;
+    display: table-cell;
+}
+.darkbackground22 {
+    width: 790px;
+    height: 880px;
+    display: table-cell;
+}
+.darkbackground23 {
+    background-color: rgb(23, 27, 38);
+    width: 1350px;
+    height: 880px;
+    font-size: 30px;
+    color:white;
+    display: table-cell;
+}
+.darkbackground31 {
+    background-color: rgb(23, 27, 38);
+    width: 160px;
+    height: 170px;
+    display: table-cell;
+}
+.darkbackground32 {
+    background-color: rgb(33, 37, 48);
+    width: 790px;
+    height: 170px;
+    display: table-cell;
+}
+.darkbackground33 {
+    background-color: rgb(23, 27, 38);
+    width: 1350px;
+    height: 170px;
+    display: table-cell;
+}
+.letter1 {
+    font-size: 80px;
+    font-style: bold;
+    margin-left:20%;
+}
+.letter2 {
+    background-color: rgb(44, 50, 59);
+    font-size: 30px;
+    margin-left:20%;
+    margin-right: 60%;
+    align-content: center;
+}
+
+
+
+
+.part2 {
+    display: table;
+    font-family: 'Quicksand', sans-serif;
+    width: 2300px;
+    height: 2000px;
+}
+.brightbackground1 {
+    background-color: white;
+}
