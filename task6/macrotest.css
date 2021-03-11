@@ -1,0 +1,26 @@
+.wrapper{
+    margin:0 auto;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    background-color: forestgreen;
+    border-radius: 5px;
+    text-align: center;
+}
+.wrong{
+    background-color: tomato;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.hidden{
+    display: none;
+}
+#btn1{
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+}
+.opend{
+    background-color: skyblue;
+}
