@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makrotest</title>  
+    <link rel="stylesheet" href="css.css"> 
+</head>
+<body>
+
+    <div class="picture">
+    <div class="wrapper">
+        <h2 align="center" id = "title"></h2>
+        <h3 align="center" id  = "question"></h3>
+        <p><input type="radio" name="year" id="y1"><span  id = "a1"></span></p>
+        <p><input type="radio" name="year" id="y2"><span  id = "a2"></span></p>
+        <p><input type="radio" name="year" id="y3"><span  id = "a3"></span></p>    
+        <p><input type="radio" name="year" id="y4"><span  id = "a4"></span></p>
+
+    <button id = "btn">Answer</button>
+    
+    <div class="right_div hidden" id="right_div"> 
+        <p class="right" id="right">Верный ответ</p>
+        <button id = "btn2">Ответить</button>
+    </div>
+    
+    <div class="wrong_div hidden" id="wrong_div">
+         <p class="wrong" id="wrong">Неверный ответ</p>
+         <button id = "btn1">Узнать верный ответ</button>
+         <button id = "btn3">Далее</button>
+    </div>
+
+    <div class = "answ">
+     <p id="answer" class = "hidden"></p>
+    </div>
+
+    </div>
+    </div>
+    <input type="hidden" value = "0" id = "n_question">  
+    <script src="js.js"></script>
+</body>
+</html>
