@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<section>
+    <div class="first-table">
+        <h1> Курсы Валют PrivatBank</h1>
+        <table>
+            <tr>
+                <th><span id="cur0">Валютная пара</span></th>
+                <th><span id="cur0buy">Продажа</span></th>
+                <th><span id="cur0sale">Покупка</span></th>
+            </tr>
+            <tr>
+                <td><span id="cur1"></span></td>
+                <td><span id="cur1buy"></span></td>
+                <td><span id="cur1sale"></span></td>
+            </tr>
+            <tr>
+                <td><span id="cur2"></span></td>
+                <td><span id="cur2buy"></span></td>
+                <td><span id="cur2sale"></span></td>
+            </tr>
+            <tr>
+                <td><span id="cur3"></span></td>
+                <td><span id="cur3buy"></span></td>
+                <td><span id="cur3sale"></span></td>
+            </tr>
+            <tr>
+                <td><span id="cur4"></span></td>
+                <td><span id="cur4buy"></span></td>
+                <td><span id="cur4sale"></span></td>
+            </tr>
+        </table>
+        <p class="info"> Наличный курс ПриватБанка (в отделениях)</p>
+    </div>
+    <div class="second-table">
+        <h1> Курсы Валют PrivatBank</h1>
+        <table>
+            <tr>
+                <th><span id="cura0">Валютная пара</span></th>
+                <th><span id="cura0buy">Продажа</span></th>
+                <th><span id="cura0sale">Покупка</span></th>
+            </tr>
+            <tr>
+                <td><span id="cura1"></span></td>
+                <td><span id="cura1buy"></span></td>
+                <td><span id="cura1sale"></span></td>
+            </tr>
+            <tr>
+                <td><span id="cura2"></span></td>
+                <td><span id="cura2buy"></span></td>
+                <td><span id="cura2sale"></span></td>
+            </tr>
+            <tr>
+                <td><span id="cura3"></span></td>
+                <td><span id="cura3buy"></span></td>
+                <td><span id="cura3sale"></span></td>
+            </tr>
+            <tr>
+                <td><span id="cura4"></span></td>
+                <td><span id="cura4buy"></span></td>
+                <td><span id="cura4sale"></span></td>
+            </tr>
+        </table>
+        <p class="info"> Безналичный курс ПриватБанка (конвертация по картам, Приват24, пополнение вкладов)</p>
+    </div>
+    <h1 class="сalc-title"> Конвертация валюты</h1>
+    <span>По наличному курсу Приватбанка (в отделениях)</span>
+    <div class="calculator">
+        <div class="calculator-item">
+            <h3> USD:</h3><input id="a" value="1" autocomplete="off">
+
+            <h3> UAH:</h3>
+            <p class="results" id="res"></p>
+            <div class="button">
+                <button id="btn"> click</button>
+            </div>
+        </div>
+
+        <div class="calculator-item">
+            <h3> UAH:</h3><input id="b" value="1" autocomplete="off">
+
+            <h3> USD:</h3>
+            <p class="results" id="res1"></p>
+            <div class="button">
+                <button id="btn1"> click</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="calculator">
+        <div class="calculator-item">
+            <h3> EUR:</h3><input id="c" value="1" autocomplete="off">
+
+            <h3> UAH:</h3>
+            <p class="results" id="res2"></p>
+            <div class="button">
+                <button id="btn2"> click</button>
+            </div>
+        </div>
+
+        <div class="calculator-item">
+            <h3> UAH:</h3><input id="d" value="1" autocomplete="off">
+
+            <h3> EUR:</h3>
+            <p class="results" id="res3"></p>
+            <div class="button">
+                <button id="btn3"> click</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="calculator">
+        <div class="calculator-item">
+            <h3> RUB:</h3><input id="e" value="1" autocomplete="off">
+
+            <h3> UAH:</h3>
+            <p class="results" id="res4"></p>
+            <div class="button">
+                <button id="btn4"> click</button>
+            </div>
+        </div>
+
+        <div class="calculator-item">
+            <h3> UAH:</h3><input id="f" value="1" autocomplete="off">
+
+            <h3> RUB:</h3>
+            <p class="results" id="res5"></p>
+            <div class="button">
+                <button id="btn5"> click</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="calculator">
+        <div class="calculator-item">
+            <h3> BTC:</h3><input id="j" value="1" autocomplete="off">
+
+            <h3> USD:</h3>
+            <p class="results" id="res6"></p>
+            <div class="button">
+                <button id="btn6"> click</button>
+            </div>
+        </div>
+
+        <div class="calculator-item">
+            <h3> USD:</h3><input id="k" value="1" autocomplete="off">
+
+            <h3> BTC:</h3>
+            <p class="results" id="res7"></p>
+            <div class="button">
+                <button id="btn7"> click</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</section>
+<script src="js.js"></script>
+</body>
+</html>
